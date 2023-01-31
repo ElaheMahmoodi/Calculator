@@ -10,12 +10,14 @@
         android:id="@+id/solution_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="0"
-        android:textColor="@color/black"
-        android:textDirection="rtl"
-        android:textSize="30dp"
         android:layout_above="@id/result_tv"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAlignment="textEnd"
+        android:layout_marginBottom="20dp"
+        android:textColor="#686767"
+        android:textSize="30dp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
@@ -28,8 +30,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:text="0"
-        android:textColor="@color/black"
-        android:textDirection="rtl"
+        android:textAlignment="textEnd"
+        android:textColor="#686767"
         android:textSize="64dp"
         android:layout_above="@id/buttons_layout" />
     <LinearLayout
